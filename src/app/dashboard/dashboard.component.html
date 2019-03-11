@@ -1,0 +1,11 @@
+<h3>Top Puppies</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let puppy of puppies" class="col-1-4"
+    routerLink="/detail/{{puppy.id}}">
+    <div class="module puppy">
+      <h4>{{puppy.name}}</h4>
+    </div>
+  </a>
+</div>
+
+<app-puppy-search></app-puppy-search>

@@ -1,0 +1,18 @@
+.btn {
+  padding: .8em 4.5em;
+  border-radius: 1.6em;
+  text-transform: uppercase;
+  margin: 0 0 2em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.clear-btn {
+  background-color: #9400d3;
+  color: white;
+}
+
+.clear-btn:hover, .clear-btn:focus {
+  background-color: #7659b6;
+}
